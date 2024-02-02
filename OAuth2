@@ -1,1 +1,29 @@
-122db7644c37288496651e5ebe06a19c1943499a
+#FOR GITHUB
+
+Client ID
+cec5dd83ddad463cba18
+Client secrets
+Make sure to copy your new client secret now. You won’t be able to see it again.
+
+Client secret
+ 122db7644c37288496651e5ebe06a19c1943499a 
+Added 10 minutes ago by 9703146255
+Never used
+You cannot delete the only client secret. Generate a new client secret first.
+
+
+
+
+security:
+  oauth2:
+    client:
+      clientId: cec5dd83ddad463cba18
+      clientSecret: 122db7644c37288496651e5ebe06a19c1943499a
+      accessTokenUri: https://github.com/login/oauth/access_token
+      userAuthorizationUri: https://github.com/login/oauth/authorize
+      clientAuthenticationScheme: form
+    resource:
+      user-info-uri: https://api.github.com/user
+      prefer-token-info: false
+
+I
